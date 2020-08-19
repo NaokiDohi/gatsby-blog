@@ -2,10 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Kv from "../components/kv"
 
 const IndexPage = () => (
   <Layout>
-    <h1>index</h1>
+    <Kv />
   </Layout>
 )
 
